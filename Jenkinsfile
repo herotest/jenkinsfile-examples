@@ -21,7 +21,7 @@ node {
 	        }
         }
       	stage ('Deploy') {
-            sh "echo 'shell scripts to deploy to testing iptest for suri80 server wrkng ....suri'"
+            sh "echo 'shell scripts to deploy to testing iptest for suri80 server wrkng ....'"
       	}
     } catch (err) {
         currentBuild.result = 'FAILED'
