@@ -21,7 +21,7 @@ node {
 	        }
         }
       	stage ('Deploy') {
-            sh "echo 'shell scripts to deploy to testing iptes  seeerver...'"
+            sh "echo 'shell scripts to deploy to testing iptest for git  seeerver...'"
       	}
     } catch (err) {
         currentBuild.result = 'FAILED'
